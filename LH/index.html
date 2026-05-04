@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letchumanan Hall - Event & Ballroom</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+
+    <link rel="icon" href="https://letchumananhall.com/wp-content/uploads/2021/09/letchumanan-hall-favicon-1.png" sizes="32x32">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&
+    family=Playwrite+NO:wght@100..400&family=Poppins:wght@300;400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" 
+    rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    
+    <!-- Vercel Web Analytics -->
+    
+</head>
+<body class="poppins-regular">
+    <!-- Header with Navigation -->
+    <header class="header">
+    <div class="container header-flex">
+        <a href="index.html" class="logo">
+            <img src="img/icon.webp" alt="Letchumanan Hall Logo" class="logo-img">
+            <span class="logo-title">Letchumanan Hall</span>
+        </a>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">History</a></li>
+                <!-- <li><a href="services.html">Services</a></li> -->
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</header>
+
+    <!-- Hero Section -->
+    <!-- HERO SECTION (Slideshow) -->
+<section id="home" class="hero">
+    <div class="slideshow-container">
+        <!-- Slides -->
+        <div class="slide">
+            <img src="img/hall_enterance.jpeg" alt="Event 1">
+        </div>
+        <div class="slide">
+            <img src="img/hall_wide-side.jpeg" alt="Event 2">
+        </div>
+        <div class="slide">
+            <img src="img/hall_wide_01.jpeg" alt="Event 3">
+        </div>
+        <div class="slide">
+            <img src="img/IMG_3745.JPG.jpeg" alt="Event 4">
+        </div>
+        <div class="slide">
+            <img src="img/IMG_3754.JPG.jpeg" alt="Event 5">
+        </div>
+    </div>
+
+    <div class="overlay-background"></div>
+    
+    <!-- Navigation Dots -->
+    <div class="dot-container">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <!-- Arrows -->
+    <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+
+    <!-- Text Overlay -->
+    <div class="hero-overlay">
+        <h1>Letchumanan Hall – Your Event Space in Klang</h1>
+        <p class="playwrite-no-regular">Elegance & Class for Weddings, Corporate Events, and More</p>
+    </div>
+</section>
+
+
+<!-- Insert this below your HERO SECTION (after </section>) -->
+
+<section class="intro-features section-padding">
+    <div class="container">
+
+        <h2>Welcome to Letchumanan Hall</h2>
+        <p>
+            A strategic event hall situated in the heart of Klang — perfect for weddings, lunches, hi‑tea, conferences, and more.
+            Our hall has all the facilities needed to make your special occasion unforgettable. 
+        </p>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <img src="img/feature-img.jpeg" alt="Event Facilities" class="feature-img">
+                <h3>Easy Access Facilities</h3>
+                <p>Conveniently located with accessible amenities for all types of events. </p>
+            </div>
+            <div class="feature-card">
+                <img src="img/feature-img-02.jpeg" alt="Renovated Space" class="feature-img">
+                <h3>Fully Renovated Space</h3>
+                <p>Comes equipped with integrated sound systems and lighting to elevate every event. </p>
+            </div>
+            <div class="feature-card">
+                <img src="img/feature-img-03.jpeg" alt="Versatile Layouts" class="feature-img">
+                <h3>Versatile Layouts</h3>
+                <p>Convertible space suitable for banquets, ceremonies, talks, seminars, concerts, and more. </p>
+            </div>
+        </div>
+
+        <div class="cta-booking">
+            <a href="contact.html" class="btn btn-primary">Contact Us for Booking</a>
+            <!-- <a href="booking.html" class="btn btn-secondary">Request Booking</a> -->
+        </div>
+
+    </div>
+</section>
+
+ <section id="about" class="about-home section-padding">
+    <div class="container">
+        <h2>About Letchumanan Hall</h2>
+        <p>
+            Letchumanan Hall offers a sophisticated venue for weddings, conferences, and private events. Located in Klang, we provide an elegant environment with exceptional services.
+        </p>
+
+        <!-- Add history section with image -->
+        <div class="history-section">
+            <div class="history-img">
+                <img src="img/founder-img.webp" alt="Founder Image">
+            </div>
+            <div class="history-text">
+                <h3>The Beginning of an Era</h3>
+                <p>
+                    Our Founder, RM. M. Letchumanan Chettiar J.P., is also the land donor for the Letchumanan Hall. Learn more about our history.
+                </p>
+                <a href="about.html" class="btn btn-primary">Our History</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">History</a></li>
+                <!-- <li><a href="services.html">Services</a></li> -->
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-contact">
+            <h4>Contact Us</h4>
+            <p><strong>Phone:</strong> +6017 318 1345</p>
+            <p><strong>Email:</strong> admin@letchumananhall.com</p>
+        </div>
+
+        <div class="footer-social">
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/share/1AsgLmyPYV/?mibextid=wwXIfr" target="_blank" class="social-icon facebook" title="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/lhbanquethall?igsh=MTdqdXJkbGVsbjljMw%3D%3D&utm_source=qr
+" target="_blank" class="social-icon instagram" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.tiktok.com/@lhbanquethall?_r=1&_t=ZS-95u3iVPOJxE" target="_blank" class="social-icon tiktok" title="TikTok">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+               
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; 2026 Letchumanan Hall. All Rights Reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
